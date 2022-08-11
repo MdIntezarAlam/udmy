@@ -1,0 +1,27 @@
+.button {
+    font: inherit;
+    border: 1px solid #4f005f;
+    background: blue;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    border-radius: 7px;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #741188;
+    border-color: #741188;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  @media only screen and (max-width: 600px) {
+    .button{
+      width: 100%;
+    }
+    body {
+      background-color: lightblue;
+    }
+  }

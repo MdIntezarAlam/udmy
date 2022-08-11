@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(16, 128, 225);
+    border: 2px solid black;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(8, 186, 245);
+    }
+  }
